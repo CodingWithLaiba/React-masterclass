@@ -1,16 +1,25 @@
 // export default function Hello(props) {
 
 //   return (
-//     <div>{props.message} {props.name}</div>
+//     <div>{props.person.message} {props.person.name} {props.person.setNumber}</div>
+//     // <div>{props.message} {props.name} {props.setNumber}</div>
 //   )
 // }
 
 // - Destruction Props method
 
-export default function Hello({ name, message }) {
+// export default function Hello({ name, message,setNumber }) {
+//   return (
+//     <div>
+//       {message} {name} {setNumber}
+//     </div>
+//   );
+// }
+
+export default function Hello({ person }) {
   return (
     <div>
-      {message} {name}
+      <div>{person.message} {person.name} {person.setNumber}</div>
     </div>
   );
 }
