@@ -1,3 +1,5 @@
+import Fruit from "./Fruit";
+
 export default function Furits() {
   //   const furits = ["Apple", "Mango", "Banana", "Orange", "Peach"];
   const furits = [
@@ -18,10 +20,20 @@ export default function Furits() {
 
         {/* for rendring array of objs */}
 
-        {furits.map((furit) => (
+        {/* {furits.map((furit) => (
           <h5 key={furit.name}>
             {furit.emoji} {furit.name} ${furit.price}
           </h5>
+        ))} */}
+
+        {/* for rendring array of objs through child component */}
+        {furits.map((furit) => (
+          <Fruit
+            key={furit.name}
+            emoji={furit.emoji}
+            name={furit.name}
+            price={furit.price}
+          />
         ))}
       </div>
     </>
