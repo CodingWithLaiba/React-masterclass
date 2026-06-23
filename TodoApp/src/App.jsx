@@ -1,7 +1,11 @@
+import Header from "./components/Header";
 import Todo from "./components/Todo";
 
 export default function App() {
   return (
-    <div><Todo/></div>
-  )
+    <div>
+      <Header />
+      <Todo />
+    </div>
+  );
 }
