@@ -2,8 +2,11 @@ import { useState } from "react";
 
 export default function Todo() {
   const [todo, setTodo] = useState("");
+  const [todoList, setTodoList] = useState([]);
   function handleSubmit(e) {
     e.preventDefault();
+    setTodoList([...todoList,todo]);
+    setTodo("");
   }
   return (
     <div>
@@ -15,6 +18,7 @@ export default function Todo() {
         />
         <button type="submit">Add</button>
       </form>
+      {console.log(todoList)}
     </div>
   );
 }
