@@ -1,4 +1,5 @@
 import { useReducer, useState } from "react";
+import BankAccount from "./componet/BankAccount";
 
 export default function App() {
   // const [count, setCount] = useState(0); // count increment with useState
@@ -48,6 +49,9 @@ export default function App() {
         <button onClick={() => dispatch({ type: "decrement", payload: 1 })}>
           decrement
         </button>
+      </div>
+      <div>
+        <BankAccount/>
       </div>
     </>
   );
