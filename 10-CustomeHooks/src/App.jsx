@@ -1,5 +1,13 @@
+// import DisplayMessage from "./hooks/DisplayMessage"
+
+import Login from "./Login";
+
 export default function App() {
-  return (
-    <div>App</div>
+  // const [message] = DisplayMessage()
+  // return (
+  //   <div>{message}</div>
+  // )
+  return(
+    <Login/>
   )
 }
