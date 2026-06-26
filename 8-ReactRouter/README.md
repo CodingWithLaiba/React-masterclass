@@ -1,4 +1,4 @@
-## Video 69-74 - States
+## Video 69-74 - ReactRouter
 
 **Topics covered:**
 
