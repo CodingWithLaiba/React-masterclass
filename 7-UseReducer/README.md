@@ -1,4 +1,4 @@
-## Video 65-69 - States
+## Video 65-69 - UseReducer
 
 **Topics covered:**
 
