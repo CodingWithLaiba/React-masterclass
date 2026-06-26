@@ -73,5 +73,6 @@ npm run dev
 
 ## 👤 Author
 
-**Laiba Ijaz**  
-[GitHub](https://github.com/CodingWithLaiba) • [LinkedIn](https://www.linkedin.com/in/laiba-ijaz52422/)
+- 👩‍💻 *Laiba Ijaz*
+  
+  GitHub: https://github.com/CodingWithLaiba
