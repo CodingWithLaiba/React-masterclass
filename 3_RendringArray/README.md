@@ -1,4 +1,4 @@
-## Video 13-20 – Props
+## Video 13-20 – RendringArray
 
 **Topics covered:**
 - Rendering Arrays Or Lists In React
