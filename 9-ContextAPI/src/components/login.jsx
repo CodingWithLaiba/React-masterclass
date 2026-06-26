@@ -1,12 +1,16 @@
 import { useContext, useState } from "react";
-import { UserContext } from "../App";
+import { UserContext } from "../context/UserContext";
 
 export default function Login() {
   const [value, setValue] = useState("");
-  const { user,setUser } = useContext(UserContext);
-  function handleSubmit(e){
-    e.preventDefault()
-    setUser(value)
+  //   const { setUser } = useContext(UserContext);
+
+  const { dispatch } = useContext(UserContext);
+  function handleSubmit(e) {
+    e.preventDefault();
+    // setUser(value);
+    dispatch({ type: "login", payload: value });
+    setValue("");
   }
   return (
     <div>
